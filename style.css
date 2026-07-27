@@ -1,0 +1,197 @@
+
+* {
+      /*border: 1px solid black;*/
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+      font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+/* Each state */
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none;}
+a:hover, a:active {
+  text-decoration: none;
+  color: #4C554C;
+}
+
+.title__container {
+  height: auto;
+  margin-top: 50px;
+  font: 150px Libre Baskerville;
+  font-kerning: normal;
+  /* letter-spacing: -10px; --
+  --font kernaling works but very minute for Baskerville fonts
+  --letter spacing here effects .toppagetext below name*/
+  margin-bottom: 50px;
+}
+
+.emailstyle {
+  font: 20px Libre Baskerville;
+  margin-top: 20px;
+}
+
+.pagetext {
+  width: 100%;
+  margin-top: 5px;
+  margin-left: inherit;
+  font-kerning: normal;
+  font: 20px Libre Baskerville;
+}
+
+.pagetext3 {
+  width: 100%;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  margin-left: inherit;
+  font-kerning: normal;
+  font: 20px Libre Baskerville;
+}
+
+.pagetext2 {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: inherit;
+  font-kerning: normal;
+  font: 20px Libre Baskerville;
+}
+
+.toppagetext {
+  width: 100%;
+  margin-top: 5px;
+  font-kerning: normal;
+  font: 25px Libre Baskerville;
+}
+
+.displaycontainer {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 150px;
+}
+
+.displaycontainer2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2px;
+}
+
+.displaycontainer3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  margin-bottom: 200px;
+}
+
+.displaycontainer4 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+}
+
+.diptych__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.monotych__once {
+  width: 100%;
+  height: 100%;
+}
+
+.monotych__once2 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+.diptych__both {
+  width: 49.75%;
+  height: 100%;
+}
+
+.triptych__thrice {
+  width: 33%;
+  height: 100%;
+}
+
+.fourplex__flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.fourplex__each {
+  height: 49.75%;
+  width: 49.75%;
+  margin-top: 5px;
+}
+
+.landscape__flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.landscape__each {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.footertext__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footertext {
+  font: 20px Libre Baskerville;
+  margin-top: -25px;
+}
+
+.footertext2 {
+  font: 20px Libre Baskerville;
+  margin-top: 25px;
+}
